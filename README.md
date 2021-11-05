@@ -1,5 +1,5 @@
 ## Overview
-Circular RNAs (circRNAs) interact with RNA-binding proteins (RBPs) to modulate gene expression. To date, most computational methods for predicting RBP binding sites on circRNAs focus on circRNA fragments instead of full-length circRNAs. These methods detect whether an circRNA fragment contains a binding site, but cannot determine where is the binding site and how many binding sites on the whole circRNA. We report a hybrid deep learning-based tool, called RBPsuite 2.0, to predict RBP binding sites at single-nucleotide resolution and detect key contributed sequence contents on full-length circRNAs. RBPsuite 2.0 takes advantages of convolutional neural network (CNN) and Transformer for learning local and global representations, respectively. We construct 37 datasets for RBP-binding full-length circRNAs and the experimental results show that RBPsuite 2.0 offers accurate predictions of RBP binding nucleotides and detects known binding motifs. To the best of our knowledge, RBPsuite 2.0 is the first computational tool to explore the binding nucleotides of RBPs on full-length circRNAs.
+Circular RNAs (circRNAs) interact with RNA-binding proteins (RBPs) to modulate gene expression. To date, most computational methods for predicting RBP binding sites on circRNAs focus on circRNA fragments instead of full-length circRNAs. These methods detect whether an circRNA fragment contains a binding site, but cannot determine where is the binding site and how many binding sites on the whole circRNA. We report a hybrid deep learning-based tool, called CircSite, to predict RBP binding sites at single-nucleotide resolution and detect key contributed sequence contents on full-length circRNAs. CircSite takes advantages of convolutional neural network (CNN) and Transformer for learning local and global representations, respectively. We construct 37 datasets for RBP-binding full-length circRNAs and the experimental results show that CircSite offers accurate predictions of RBP binding nucleotides and detects known binding motifs. To the best of our knowledge, CircSite is the first computational tool to explore the binding nucleotides of RBPs on full-length circRNAs.
 ## Dependency
 
 * python3.6
@@ -25,3 +25,4 @@ To better explore the advantages of RBPsuite 2.0, we try to predict whether the 
 
 ## Reference
 * xxxxx
+
